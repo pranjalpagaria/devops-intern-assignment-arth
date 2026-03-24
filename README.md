@@ -1,4 +1,4 @@
-# devops-intern-assignment-arth
+# Devops-intern-assignment-arth
 
 ## I have created ec2 instance to peform all the task 
 <img width="1913" height="888" alt="image" src="https://github.com/user-attachments/assets/f640b73f-4a9c-42bd-86be-774c45c6797f" />
