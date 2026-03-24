@@ -74,13 +74,17 @@ docker<br>
 <img width="1910" height="954" alt="image" src="https://github.com/user-attachments/assets/6732d796-5070-4a1e-b59e-05111b997c5a" />
 
 
+## Task 4 – Nginx Reverse Proxy
 
+### Our application is running inside a Docker container on port 80 and is exposed on host port 8080.<br> 
+### We configured Nginx as a reverse proxy to forward incoming traffic from port 80 to the application running on port 8080.<br>
+### by editing the following file:<br>
+### sudo vim /etc/nginx/sites-available/default 
 
+<img width="1887" height="365" alt="image" src="https://github.com/user-attachments/assets/a94451c1-4adb-49aa-9fc7-5960f0df56e2" />
 
-
-
-
-
+### verfication Application is working without 8080 in url.
+<img width="1919" height="952" alt="image" src="https://github.com/user-attachments/assets/a34d109d-08a9-4337-b52e-c05ea5af4fe6" />
 
 ## Task 5 – Troubleshooting
 
@@ -94,6 +98,49 @@ After troubleshooting I get to know about only port 80 is open in security group
 
 Even after this was not working then I have try the url in the different browser and its it was not working then I checked the exposed port 
 <img width="1903" height="962" alt="image" src="https://github.com/user-attachments/assets/49935c30-9b9a-4bf2-8639-71cd5829b352" />
+
+
+## Task-6  Basic Script
+### Health check script 
+<img width="898" height="757" alt="image" src="https://github.com/user-attachments/assets/58a72d52-2f1f-40c7-bb05-c22e4390b166" />
+<img width="1919" height="964" alt="image" src="https://github.com/user-attachments/assets/feefecf6-7628-46fd-aca5-5130b1687217" />
+
+
+## Task-7 Short Questions
+
+### Difference between Docker image and container 
+
+### A Docker image is like a blueprint or template that contains everything needed to run an application (code, libraries, dependencies).
+A container is the actual running instance of that image.
+
+
+### Difference between systemctl start and systemctl enable
+
+### systemctl start is used to start a service immediately, but it will not start automatically after a reboot.
+### systemctl enable is used to make the service start automatically on system boot.
+
+
+### What is nginx reverse proxy used for?
+### Nginx reverse proxy is used to forward client requests to backend servers. It actually helps in hiding the backend server and helps in security .
+
+
+### How do you check which process is using a port in Linux?
+
+### ss -tulnp 
+
+
+### What is AWS EC2 used for?
+### AWS EC2 is used to create and run virtual servers in the cloud.
+### It allows us to host applications, websites, and services without needing physical hardware.
+
+### What is Jenkins used for?
+### Jenkins is a CI/CD tool used to automate the process of building, testing, and deploying applications.
+
+### What is CodePipeline?
+CodePipeline is an AWS service used to automate the CI/CD pipeline. Its an aws version of cicd tool , it connects different stages like source code , code build and deployment.
+
+
+
 
 
 
