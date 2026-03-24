@@ -47,4 +47,15 @@ docker<br>
 <img width="1125" height="321" alt="image" src="https://github.com/user-attachments/assets/209aea6f-2223-45f0-a009-b165224c121d" />
 
 
+## Task-2 
+### Start nginx and ensure it is enabled
+<img width="1916" height="122" alt="image" src="https://github.com/user-attachments/assets/91630e52-313e-4f68-914e-d8eca607eb4b" />
 
+
+### Show how you:<br>
+###Check service status<br>
+<img width="1903" height="474" alt="image" src="https://github.com/user-attachments/assets/012a5bee-7791-42db-8aed-1e610291e28a" />
+
+###Check which process is using a specific port <br>
+### Command used -> ss -tulnp
+<img width="1912" height="706" alt="image" src="https://github.com/user-attachments/assets/3eeb33c7-75ed-47fe-8a32-fe284b545b6b" />
