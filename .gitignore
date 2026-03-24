@@ -1,0 +1,14 @@
+# Ignore system files
+.bashrc
+.bash_history
+.bash_logout
+.profile
+.lesshst
+.viminfo
+.sudo_as_admin_successful
+
+# Ignore SSH keys
+.ssh/
+
+# Ignore cache
+.cache/
