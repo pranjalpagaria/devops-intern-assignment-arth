@@ -93,10 +93,9 @@ I have created nginx server using docker but my content is not displaying on the
 <img width="1907" height="970" alt="image" src="https://github.com/user-attachments/assets/579c5972-b24a-49b0-956d-8c7cde8b3860" />
 
 
-After troubleshooting I get to know about only port 80 is open in security group but I have mapped it with 8080 and 8080 port was not opened , so I opend it now,
+After troubleshooting I get to know about only port 80 is open in security group but I have mapped host with 8080 and 8080 port was not opened , so I opend it now,
 <img width="1919" height="831" alt="image" src="https://github.com/user-attachments/assets/4cd2d453-5d6e-4a7f-8cda-2f575b024ec1" />
-
-Even after this was not working then I have try the url in the different browser and its it was not working then I checked the exposed port 
+ 
 <img width="1903" height="962" alt="image" src="https://github.com/user-attachments/assets/49935c30-9b9a-4bf2-8639-71cd5829b352" />
 
 
@@ -109,13 +108,11 @@ Even after this was not working then I have try the url in the different browser
 ## Task-7 Short Questions
 
 ### Difference between Docker image and container 
-
 ### A Docker image is like a blueprint or template that contains everything needed to run an application (code, libraries, dependencies).
-A container is the actual running instance of that image.
+### A container is the actual running instance of that image.
 
 
 ### Difference between systemctl start and systemctl enable
-
 ### systemctl start is used to start a service immediately, but it will not start automatically after a reboot.
 ### systemctl enable is used to make the service start automatically on system boot.
 
@@ -125,9 +122,7 @@ A container is the actual running instance of that image.
 
 
 ### How do you check which process is using a port in Linux?
-
 ### ss -tulnp 
-
 
 ### What is AWS EC2 used for?
 ### AWS EC2 is used to create and run virtual servers in the cloud.
@@ -137,7 +132,7 @@ A container is the actual running instance of that image.
 ### Jenkins is a CI/CD tool used to automate the process of building, testing, and deploying applications.
 
 ### What is CodePipeline?
-CodePipeline is an AWS service used to automate the CI/CD pipeline. Its an aws version of cicd tool , it connects different stages like source code , code build and deployment.
+### CodePipeline is an AWS service used to automate the CI/CD pipeline. Its an aws version of cicd tool , it connects different stages like source code , code build and deployment.
 
 
 
