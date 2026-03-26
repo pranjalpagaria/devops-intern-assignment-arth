@@ -135,6 +135,52 @@ After troubleshooting I get to know about only port 80 is open in security group
 ### CodePipeline is an AWS service used to automate the CI/CD pipeline. Its an aws version of cicd tool , it connects different stages like source code , code build and deployment.
 
 
+## AWS Codepipeline Task
+
+### Creating git repository for nginx application
+<img width="1886" height="876" alt="image" src="https://github.com/user-attachments/assets/1f78aa70-6efe-49fa-9eae-5cef557197eb" />
+
+### Created index,html , buildspec.yml and Dockerfile
+<img width="1442" height="792" alt="image" src="https://github.com/user-attachments/assets/28c13ba8-42e8-433d-8cca-80d5a21e6bad" />
+<img width="1555" height="779" alt="image" src="https://github.com/user-attachments/assets/95580099-f6f1-4251-ad4d-9b467115e044" /> 
+
+### ECR Repository created
+<img width="1915" height="844" alt="image" src="https://github.com/user-attachments/assets/9656657d-79d8-48df-91a0-0f5688b7a5aa" />
+
+### Buildspec project created
+<img width="1901" height="823" alt="image" src="https://github.com/user-attachments/assets/9710f0f7-0439-4f01-9373-9d56f39f5438" />
+
+### Nginx cluster created
+<img width="1918" height="887" alt="image" src="https://github.com/user-attachments/assets/3ddf681a-4087-4d4a-982d-7b8a1d81bdc3" />
+
+### Nginx app Task Defination created 
+<img width="1566" height="783" alt="image" src="https://github.com/user-attachments/assets/b592e5cd-23db-44af-bf0e-88cf365a0419" />
+
+### Nginx svc created
+<img width="1580" height="727" alt="image" src="https://github.com/user-attachments/assets/6e65c6e1-4a41-4b93-9a56-cd21e7e6f114" />
+
+### code pipeline is also created
+<img width="1900" height="875" alt="image" src="https://github.com/user-attachments/assets/d39c1665-cc0b-4f29-9d7f-414f8d2b8f28" />
+
+### image pushed to ecr 
+<img width="1907" height="834" alt="image" src="https://github.com/user-attachments/assets/a2129d2f-e248-4499-b8c8-896e456a57ab" />
+
+### cotainer deployed 
+<img width="1909" height="807" alt="image" src="https://github.com/user-attachments/assets/5ce066f2-871b-49fb-be23-2eeb9748755d" />
+
+### final web output 
+<img width="1919" height="1026" alt="image" src="https://github.com/user-attachments/assets/91c2c0d9-7136-4d68-b105-c902ddcf248e" />
+
+
+
+
+
+
+
+
+
+
+
 
 
 
