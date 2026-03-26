@@ -165,7 +165,7 @@ After troubleshooting I get to know about only port 80 is open in security group
 ### image pushed to ecr 
 <img width="1907" height="834" alt="image" src="https://github.com/user-attachments/assets/a2129d2f-e248-4499-b8c8-896e456a57ab" />
 
-### cotainer deployed 
+### container deployed 
 <img width="1909" height="807" alt="image" src="https://github.com/user-attachments/assets/5ce066f2-871b-49fb-be23-2eeb9748755d" />
 
 ### final web output 
